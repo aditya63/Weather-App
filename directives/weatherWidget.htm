@@ -1,0 +1,8 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-heading">{{convertToDate({dt: weatherDay.dt}) | date: dateFormat}}</h3>
+	</div>
+	<div class="pabe-body" style = "padding: 20px">
+		Daytime temperature: {{convertToStandard({daytimeTemp: weatherDay.temp.day})}}
+	</div>
+</div>
