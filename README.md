@@ -1,4 +1,4 @@
-# Weather-App
+# Weather-App with Angular js
  Shows the recent weather forecast of any city in United States
 ## Run
 Clone the repository and run the index.html
